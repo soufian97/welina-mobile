@@ -1,0 +1,38 @@
+diff --git a/node_modules/react-native-gifted-chat/lib/Bubble.js b/node_modules/react-native-gifted-chat/lib/Bubble.js
+index 63bde0b..173e6f7 100644
+--- a/node_modules/react-native-gifted-chat/lib/Bubble.js
++++ b/node_modules/react-native-gifted-chat/lib/Bubble.js
+@@ -9,6 +9,7 @@ import MessageAudio from './MessageAudio';
+ import Time from './Time';
+ import Color from './Color';
+ import { StylePropType, isSameUser, isSameDay } from './utils';
++import LinearGradient from 'react-native-linear-gradient';
+ const styles = {
+     left: StyleSheet.create({
+         container: {
+@@ -266,7 +267,15 @@ export default class Bubble extends React.Component {
+             styles[position].container,
+             containerStyle && containerStyle[position],
+         ]}>
+-        <View style={[
++        <LinearGradient  
++            start={{ x: 0, y: 1 }}
++            end={{ x: 1, y: 0 }}
++            colors={
++                position === "left"
++                  ? ['#FEBA73' ,'#FD5429']
++                  : ['#F0F0F0','#F0F0F0']
++              }
++             style={[
+             styles[position].wrapper,
+             this.styledBubbleToNext(),
+             this.styledBubbleToPrevious(),
+@@ -285,7 +294,7 @@ export default class Bubble extends React.Component {
+               </View>
+             </View>
+           </TouchableWithoutFeedback>
+-        </View>
++        </LinearGradient>
+         {this.renderQuickReplies()}
+       </View>);
+     }
