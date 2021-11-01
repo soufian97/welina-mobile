@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402017978861",
+    "project_id": "welina-62408",
+    "storage_bucket": "welina-62408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402017978861:android:c55b277cbe45fd3a887fe4",
+        "android_client_info": {
+          "package_name": "io.xhub.welina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402017978861-tvre3vle7lg2laagdajvvt1etofdhh0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA8ngKo2Mq9vzkXh0S42-6UYzTdKSQrB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402017978861-tvre3vle7lg2laagdajvvt1etofdhh0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+export const RESTART_ON_REMOUNT = '@@saga-injector/restart-on-remount';
+export const DAEMON = '@@saga-injector/daemon';
+export const ONCE_TILL_UNMOUNT = '@@saga-injector/once-till-unmount';
+
+export const LOGOUT_MODAL = 'LOGOUT_MODAL';
+export const SEE_PAST_EVENT_MODAL = 'SEE_PAST_EVENT_MODAL';
+export const DEACTIVATION_MODAL = 'DEACTIVATION_MODAL';
+export const BETA_TEST_REMINDER_MODAL = 'BETA_TEST_REMINDER_MODAL';
+export const BETA_TEST_GENERAL_MODAL = 'BETA_TEST_GENERAL_MODAL';
+export const BETA_TEST_SCREEN_MODAL = 'BETA_TEST_SCREEN_MODAL';
+export const ERROR_MODAL = 'ERROR_MODAL';
+
+export const PAGE_SIZE = 20;
+export const ALL_DAY = 'ALL_DAY';
+export const AFTERNOON = 'AFTERNOON';
+export const MORNING = 'MORNING';
+export const INDIVIDUAL = 'INDIVIDUAL';
+export const FAMILY = 'FAMILY';
+export const GROUP = 'GROUP';
+export const KIDS = 'KIDS';
+export const PACKAGE = 'PACKAGE';
+export const SESSION = 'SESSION';
+export const IOS = 'ios';
+export const ANDROID = 'android';
+export const BACKSPACE = 'Backspace';
+export const JOINED = 'joined';
+export const SURFER = 'SURFER';
+export const COACH = 'COACH';
+export const CANCELLED = 'CANCELLED';
+export const PAST = 'PAST';
+export const UPCOMING = 'UPCOMING';
+export const BOOKED = 'BOOKED';
+export const BOOKING_STATUS = [UPCOMING, PAST, CANCELLED];
+export const WEBSITE_PREFIX = '@welina.surf';
+export const PHOTO = 'photo';
+export const REMINDER = 'REMINDER';
+export const COMPLETE_PROFILE = 'COMPLETE_PROFILE';
+export const MESSAGE_RECIVED = 'MESSAGE_RECIVED';
+export const NOTIFICATION = { REMINDER, COMPLETE_PROFILE, MESSAGE_RECIVED };
+export const MAD = 'MAD';
+export const USD = 'USD';
+export const EURO = 'EURO';
+export const BEGINNER = 'BEGINNER';
+export const INTERMEDIATE = 'INTERMEDIATE';
+export const PROFESSIONAL = 'PROFESSIONAL';
+export const SURF_GUIDING = 'SURF_GUIDING';
+export const SKILL_LEVEL = {
+  BEGINNER,
+  INTERMEDIATE,
+  PROFESSIONAL,
+  SURF_GUIDING,
+};
+export const CURRENCY = { MAD, USD, EURO };
+export const SUCCESS = 'success';
+export const ERROR = 'error';
+export const ENGLISH = 'en';
+export const FRENCH = 'fr';
+export const PENDING = 'PENDING';
+export const MALE = 'MALE';
+export const FEMALE = 'FEMALE';
+export const OTHER = 'OTHER';
+export const WELINA_EMAIL = 'aloha@welina.ma';
+export const WELINA_PHONE = '+212 7 01 05 26 05';
+export const OFFER_BOOK = 'OFFER_BOOK';
+export const BOOKING_REQUEST = 'BOOKING';
+export const REVIEW = 'REVIEW';
+export const SUBMISSION_ACCEPTED = 'SUBMISSION_ACCEPTED';
+export const LOCALHOST_LINK = 'http://localhost:8080/api/v1';
+export const REQUESTS_SMALL = 'Requests';
+export const REVIEWS_SMALL = 'Reviews';
+export const SUGGESTION = 'SUGGESTION';
+export const BUG = 'BUG';
+export const DONT_LIKE = 'DONT_LIKE';
+export const LIKE = 'LIKE';
+export const BUG_TYPE = { SUGGESTION, BUG, LIKE, DONT_LIKE };
+export const VERY_BAD = 'VERY_BAD';
+export const NEGATIVE = 'NEGATIVE';
+export const ALRIGHT = 'ALRIGHT';
+export const GOOD = 'GOOD';
+export const AWESOME = 'AWESOME';
+export const EMOJI_FEELING = { VERY_BAD, NEGATIVE, ALRIGHT, GOOD, AWESOME };
+export const FEEDBACK_MODAL_STORAGE_KEY = '@welina/feedbackDate';
+export const NONE = 'NONE';
